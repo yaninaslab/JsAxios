@@ -11,46 +11,29 @@
 #container {
     display: grid;
     place-items: center;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
-#dropdown {
+#test {
     display: grid;
     place-items: center;
-    margin-top: 30px;
+    margin-top: 100px;
 }
-#button_1 #button_3 {
+#button_1 #button_4 {
     margin: 50px;
 
 }
 button {
+    margin: 20px;
     padding: 10px;
     color: black;
     font-size: large;
     font-weight: bold;
 }
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
+p, form {
+    font-weight: bold;
+    font-size: large;
+}
   
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-content a:hover {background-color: #f1f1f1}
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
-  .dropdown:hover .button_2 {
-    background-color: pink;
-  }
+
+ 
