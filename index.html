@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,35 +8,49 @@
     <title>JS Axios</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
     <section id="container">
         <p>Choose a random activity when you're bored</p>
         <button id="button_1">Let's Do It</button>
-         </section>
+    </section>
 
-<section id="test">
-    <form>
-        Select the number of participants:
-        <select id="mySelect">
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-        </select>
-        <br>
-        <br>
-      </form>
-      
-      <p>Click the button to select the activity</p>
-      
-      <button id="button_4">Select Activity</button>
+    <section id="test">
+        <form>
+            Select the number of participants:
+            <select id="mySelect">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <br>
+            <br>
+        </form>
+        <p>Click the button to select the activity</p>
+        <button id="button_4">Select Activity</button>
 
-</section>
-   
-    
-    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script src="js/app.js"></script>
+    </section>
+
+    <section id="bonus">
+        <form action="javascript:void(0)">
+            <p>Please select your favorite activity type</p>
+            <br>
+           <div id="select_type">
+              <input type="radio" id="education" name="reload_mode" value="education">
+              <label for="education">Education</label><br>
+              <input type="radio" id="recreational" name="reload_mode" value="recreational">
+              <label for="recreational">Recreational</label><br>
+              <input type="radio" id="social" name="reload_mode" value="social">
+              <label for="social">Social</label><br>
+</div>
+            <button id="button_5">Select</button>
+
+
+            <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+            <script src="js/app.js"></script>
 </body>
+
 </html>
